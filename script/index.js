@@ -10,9 +10,10 @@ canvas.style.cursor = 'none';
 //Game objects..
 let player;
 let projectiles = [];
+let enemies = [];
 
 //Player Properties..
-const width = 80;
+const width = 40;
 const height = 20;
 const x = canvas.width / 2 - width / 2;
 const y = canvas.height - height - height /2;

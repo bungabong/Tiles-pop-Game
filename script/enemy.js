@@ -1,10 +1,12 @@
-class Projectile {
+class Enemy {
   constructor (x, y, radius, color) {
     this.x = x;
     this.y = y;
     this.radius = radius;
     this.color = color;
-    this.yv = -5;
+    this.yv = 1;
+    this.alpha = 1;
+    this.friction = 0.99;
   }
   draw() {
     ctx.beginPath();
