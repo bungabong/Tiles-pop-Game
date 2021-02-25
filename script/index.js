@@ -11,6 +11,7 @@ canvas.style.cursor = 'none';
 let player;
 let projectiles = [];
 let enemies = [];
+let particles = [];
 
 //Player Properties..
 const width = 40;
